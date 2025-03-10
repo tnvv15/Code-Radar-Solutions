@@ -17,10 +17,10 @@ int main(){
         if(b!=0){
         printf("%d",a/b);}
         else{
-            printf("Error");
+            printf("error");
         }
     }
     else{
-        printf("Error");
+        printf("error");
     }
 }
