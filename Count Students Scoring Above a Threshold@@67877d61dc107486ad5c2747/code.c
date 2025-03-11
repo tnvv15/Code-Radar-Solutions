@@ -20,7 +20,7 @@ int main() {
         scanf("%f", &students[i].marks);
     }
 
-    scanf("%d", &threshold);
+    scanf("%f", &threshold);
 
     for (int i = 0; i < N; i++) {
         if (students[i].marks > threshold) {
@@ -28,7 +28,7 @@ int main() {
         }
     }
 
-    printf("Count of students scoring above %d: %d\n", threshold, count);
+    printf("Count of students scoring above %.2f: %d\n", threshold, count);
 
     return 0;
 }
