@@ -9,7 +9,8 @@ struct student {
 };
 
 int main() {
-    int N, threshold, count = 0;
+    int N, count = 0;
+    float threshold;
     scanf("%d", &N);
 
     struct student students[N];
