@@ -14,6 +14,6 @@ int main() {
     char str[100];
     scanf("%s", str);
     reverseString(str);
-    printf("Reversed string: %s\n", str);
+    printf("%s", str);
     return 0;
 }
