@@ -15,7 +15,7 @@
         }
     }
     return is_prime;
-}
+
 void printPrimesInRange(int a, int b){
     int found = 0;
     for(int i=a; i<=b; i++){
