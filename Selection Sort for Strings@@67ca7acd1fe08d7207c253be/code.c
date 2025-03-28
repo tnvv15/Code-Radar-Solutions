@@ -15,8 +15,11 @@ void selectionSort(char arr[][100],int n){
                 minindex = j;
             }
         }
-        strcpy( temp, arr[i]);
-        strcpy(arr[i] ,arr[minindex]);
-        strcpy(arr[minindex] , temp);
+        // strcpy( temp, arr[i]);
+        // strcpy(arr[i] ,arr[minindex]);
+        // strcpy(arr[minindex] , temp);
+        strcpy(temp=arr[i]);
+        strcpy(arr[i]=arr[minindex]);
+        strcpy(arr[minindex]=temp);
     }
 }
