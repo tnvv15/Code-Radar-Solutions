@@ -10,7 +10,7 @@ void selectionSort(char arr[][100],int n){
     for(int i=0;i<n-1;i++){
         char temp[100];
         int minindex = i;
-        for(int j=i;j<n;j++){
+        for(int j=i+1;j<n;j++){
             if(strcmp(arr[j],arr[minindex])<0){
                 minindex = j;
             }
