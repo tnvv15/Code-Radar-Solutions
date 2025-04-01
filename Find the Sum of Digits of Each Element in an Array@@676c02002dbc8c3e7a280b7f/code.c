@@ -1,8 +1,6 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int remainder;
-    int result=0;
     int n;
     scanf("%d",&n);
     int arr[n];
@@ -10,6 +8,8 @@ int main(){
         scanf("%d",&arr[i]);
     }      
     for(int i=0;i<n;i++){
+    int remainder;
+    int result=0;
     while(arr[i]!=0){
         remainder=arr[i]%10;
         result+=remainder;
