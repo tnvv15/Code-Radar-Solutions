@@ -22,14 +22,13 @@ int main(){
 // if(n==1){
 //     printf("Sorted");
 // }
-else{
+
         if(Bubblesort(arr,n)){
             printf("Sorted");
         }
         else if(n==1){
-    printf("Sorted");
+            printf("Sorted");
         else{
             printf("Not Sorted");
         }
-}
-    }
+    }}
