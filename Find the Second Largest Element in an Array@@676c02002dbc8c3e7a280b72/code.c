@@ -29,5 +29,5 @@ for(int i=0;i<n-1;i++){
             printf("%d",arr[n-2]);
         }
     }
-}
+}}
 // printf("%d",arr[n-2]);
