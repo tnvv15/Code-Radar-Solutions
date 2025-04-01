@@ -27,8 +27,8 @@ int main(){
             printf("Sorted");
         }
         else if(n==1){
-            printf("Sorted");
+            printf("Sorted");}
         else{
             printf("Not Sorted");
         }
-    }}
+    }
