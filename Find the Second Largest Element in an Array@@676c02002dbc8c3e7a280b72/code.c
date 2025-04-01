@@ -19,11 +19,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-if(arr[i]!=arr[i-1]){
+if(arr[i]=arr[i-1]){
+printf("-1");
+}else{
+
 Bubblesort(arr,n);
-printf("%d",arr[n-2]);}
-else{
-    printf("-1");
-}}
+printf("%d",arr[n-2]);}}
     }
 
