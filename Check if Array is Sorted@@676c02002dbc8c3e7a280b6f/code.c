@@ -19,12 +19,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-
+if(n==1){
+    printf("Sorted");
+}
+else{
         if(Bubblesort(arr,n)){
             printf("Sorted");
         }
         else{
             printf("Not Sorted");
         }
-
+}
     }
