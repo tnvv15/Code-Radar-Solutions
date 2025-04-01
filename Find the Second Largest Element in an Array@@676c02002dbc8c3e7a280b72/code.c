@@ -23,6 +23,7 @@ for(int i=0;i<n;i++)
 if(arr[i]!=arr[i+1]){
     break;
 }printf("%d",arr[n-2]);
+for(int i=0;i<n;i++)
 if(arr[i]=arr[i+1])
 printf("-1");
 
