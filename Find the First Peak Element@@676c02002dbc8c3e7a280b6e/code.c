@@ -27,11 +27,11 @@ int main() {
         return 0;
     }
 
-    // Check if the last element is a peak
-    if (arr[n-1] >= arr[n-2]) {
-        printf("%d\n", arr[n-1]);
-        return 0;
-    }
+    // // Check if the last element is a peak
+    // if (arr[n-1] >= arr[n-2]) {
+    //     printf("%d\n", arr[n-1]);
+    //     return 0;
+    // }
 
     // Check for peak in the middle of the array
     for (int i = 1; i < n-1; i++) {
