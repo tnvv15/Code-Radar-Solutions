@@ -6,10 +6,8 @@ int linearsearch(int arr[],int n,int key){
         if(arr[i]==key){
             return i;
         }
-        else{
-            return -1;
-        }
     }
+    return -1;
 }
 
 int main(){
