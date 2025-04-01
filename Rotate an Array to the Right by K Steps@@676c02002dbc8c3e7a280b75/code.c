@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-void rightrotation(int arr[],int n;int k){
+void rightrotation(int arr[],int n,int k){
     k=k%n;
     int temp[k];
     for(int i=0;i<k;i++){
