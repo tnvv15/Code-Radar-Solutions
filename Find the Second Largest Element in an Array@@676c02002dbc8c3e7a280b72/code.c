@@ -18,16 +18,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int m;
-m=Bubblesort(arr,n);
-for(int i=0;i<n-1;i++){
-    for(int j=0;j<n-i-1;j++){
-        if(arr[j]=arr[j+1]){
-            printf("-1");
-        }
-        else{
-            printf("%d",arr[n-2]);
-        }
+
+Bubblesort(arr,n);
+printf("%d",arr[n-2]);
     }
-}}
-// printf("%d",arr[n-2]);
+
