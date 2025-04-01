@@ -12,9 +12,9 @@ void selectionSort(int arr[],int n){
             if(arr[j]<arr[minindex]){
                 minindex = j;
             }
-        
+        }
         int temp = arr[i];
         arr[i] = arr[minindex];
-        arr[minindex] = temp;}
+        arr[minindex] = temp;
     }
 }
