@@ -20,10 +20,11 @@ int main(){
     }
     Bubblesort(arr,n);
 for(int i=0;i<n;i++)
-    if(arr[i]<=arr[i+1]){
-    printf("-1");
+if(arr[i]!=arr[i+1]){
     break;
-}
-printf("%d",arr[n-2]);
+}printf("%d",arr[n-2]);
+if(arr[i]=arr[i+1])
+printf("-1");
+
     }
 
