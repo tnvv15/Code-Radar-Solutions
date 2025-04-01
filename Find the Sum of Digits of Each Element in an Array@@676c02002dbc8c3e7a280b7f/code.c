@@ -11,10 +11,11 @@ int main(){
     for(int i=0;i<n;i++){
     int remainder;
     int result=0;
-    while(arr[i]!=0){
-        remainder=arr[i]%10;
+    int num= abs(arr[i]);
+    while(num!=0){
+        remainder=num%10;
         result+=remainder;
-        arr[i]/=10;
+        num/=10;
         }
     printf("%d ",result);
 }
