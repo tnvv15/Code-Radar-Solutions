@@ -7,19 +7,23 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-
     int Bubblesort(int arr[],int n){
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++){
-                if(arr[j]>arr[j+1]){
-                    printf("Not Sorted");
+                if(arr[j]<arr[j+1]){
+                    return 1;
                 }
                 else{
-                    printf("Sorted");
+                    return 0;
                 }
             }
         }
-
+        if(1){
+            printf("Sorted");
+        }
+        else{
+            printf("Not Sorted");
+        }
     }
-    
+    Bubblesort();
 }
