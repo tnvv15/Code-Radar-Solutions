@@ -16,7 +16,7 @@ int main(){
         result+=remainder;
         arr[i]/=10;
         }
-    printf("%d ",abs(result));
+    printf("%d ",result);
 }
 
 }
