@@ -5,10 +5,10 @@ int main() {
     scanf("%d", &n);
     
     // If there is less than 1 element, there can't be a peak.
-    if (n <= 0) {
-        printf("-1");
-        return 0;
-    }
+    // if (n <= 0) {
+    //     printf("-1");
+    //     return 0;
+    // }
 
     int arr[n];
     for (int i = 0; i < n; i++) { // Corrected loop to read n elements
