@@ -22,7 +22,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    rightrotation(arr[],n,k);
+    rightrotation(arr,n,k);
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
