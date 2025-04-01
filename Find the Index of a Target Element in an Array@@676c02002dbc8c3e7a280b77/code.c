@@ -5,6 +5,7 @@ int linearsearch(int arr[],int n,int key){
     for(int i=0;i<n;i++){
         if(arr[i]==key){
             printf("%d",i);
+            break;
         }
         else{
             printf("-1");
