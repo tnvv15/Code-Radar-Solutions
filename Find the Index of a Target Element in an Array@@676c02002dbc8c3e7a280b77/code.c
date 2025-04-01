@@ -24,7 +24,7 @@ int main(){
     int M;
     M=linearsearch(arr,n,key);
     if(M!=-1){
-        printf("%d",i);
+        printf("%d",M);
     }
     else{
         printf("-1");
