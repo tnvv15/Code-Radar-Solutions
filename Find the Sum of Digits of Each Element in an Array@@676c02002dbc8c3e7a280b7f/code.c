@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
     int remainder;
     int result=0;
-    int num= arr[i];
+    int num= abs(arr[i]);
     while(num!=0){
         remainder=num%10;
         result+=remainder;
