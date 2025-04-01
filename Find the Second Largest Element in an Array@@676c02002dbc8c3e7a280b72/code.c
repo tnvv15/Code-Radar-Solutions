@@ -18,13 +18,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    Bubblesort(arr,n);
 for(int i=0;i<n;i++)
-if(arr[i]<=arr[i+1]){
-printf("-1");
-break;
+    if(arr[i]<=arr[i+1]){
+    printf("-1");
+    break;
 }
-
-Bubblesort(arr,n);
 printf("%d",arr[n-2]);
     }
 
