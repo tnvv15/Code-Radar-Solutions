@@ -25,5 +25,5 @@ int main(){
             printf("Not Sorted");
         }
     }
-    Bubblesort();
+    Bubblesort(arr,n);
 }
