@@ -8,8 +8,8 @@ int Bubblesort(int arr[], int n){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
-            else{
-                return -1;
+            if(arr[j]=arr[j+1]){
+                printf("-1");
             }
         }
     }
@@ -21,11 +21,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int m;
-m=Bubblesort(arr,n);
-if(m!=1){
+    // int m;
+Bubblesort(arr,n);
+// if(m!=1){
 printf("%d",arr[n-2]);
-}
-else{
-    printf("-1");
-}}
+// }
+// else{
+//     printf("-1");
+// }}
