@@ -4,11 +4,10 @@
 int linearsearch(int arr[],int n,int key){
     for(int i=0;i<n;i++){
         if(arr[i]==key){
-            printf("%d",i);
-            break;
+            return i;
         }
         else{
-            printf("-1");
+            return -1;
         }
     }
 }
@@ -22,4 +21,12 @@ int main(){
     }
     int key;
     scanf("%d",&key);
-linearsearch(arr,n,key);}
+    int M;
+    M=linearsearch(arr,n,key);
+    if(M!=-1){
+        printf("%d",i);
+    }
+    else{
+        printf("-1");
+    }
+}
