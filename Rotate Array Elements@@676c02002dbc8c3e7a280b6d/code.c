@@ -2,7 +2,7 @@
 #include <stdio.h>
 int rightrotation(int arr[],int n, int k){
     k=k%n;
-    int temp[];
+    int temp[k];
     for(int i=0;i<k;i++){
         temp[i]=arr[n-k+1];
     }
