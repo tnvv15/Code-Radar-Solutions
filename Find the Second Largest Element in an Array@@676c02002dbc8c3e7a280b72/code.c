@@ -28,4 +28,4 @@ printf("%d",arr[n-2]);
 }
 else{
     printf("-1");
-}
+}}
