@@ -11,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
     int remainder;
     int result=0;
-    while(arr[i]!=0){
+    while(abs(arr[i])!=0){
         remainder=arr[i]%10;
         result+=remainder;
         arr[i]/=10;
