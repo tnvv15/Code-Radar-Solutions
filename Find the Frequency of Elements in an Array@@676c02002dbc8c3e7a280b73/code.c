@@ -9,10 +9,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int frequency=0;
-        if(arr[i]=arr[i+1]){
+        if(arr[i]==arr[i+1]){
             frequency+=1;
         }
+        printf("%d %d\n",arr[i],frequency);
     }
-    for(int i=0;i<n;i++){
-     printf("%d %d\n",arr[i],frequency);}
 }
