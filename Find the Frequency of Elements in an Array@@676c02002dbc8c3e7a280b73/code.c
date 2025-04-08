@@ -12,8 +12,8 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 frequency+=1;
-                i+=1;
             }
+            i+=1;
         }
         printf("%d %d\n",arr[i],frequency);
     }
