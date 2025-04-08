@@ -12,7 +12,9 @@ int main(){
         // int frequency=0;
         if(arr[i]==arr[i+1]){
             frequency+=1;
+            printf("%d %d\n",arr[i],frequency);
+            break;
         }
-        printf("%d %d\n",arr[i],frequency);
+        // printf("%d %d\n",arr[i],frequency);
     }
 }
