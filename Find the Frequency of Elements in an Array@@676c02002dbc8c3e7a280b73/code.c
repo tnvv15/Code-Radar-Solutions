@@ -7,14 +7,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int frequency=0;
     for(int i=0;i<n;i++){
-        // int frequency=0;
-        if(arr[i]==arr[i+1]){
-            frequency+=1;
-            printf("%d %d\n",arr[i],frequency);
-            break;
+        int frequency=1;
+        for(int j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
+                frequency+=1;
+            }
         }
-        // printf("%d %d\n",arr[i],frequency);
+        printf("%d %d\n",arr[i],frequency);
     }
 }
