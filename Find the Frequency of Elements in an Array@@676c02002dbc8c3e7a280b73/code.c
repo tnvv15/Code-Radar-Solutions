@@ -13,5 +13,6 @@ int main(){
             frequency+=1;
         }
     }
-     printf("%d %d\n",arr[i],frequency);
+    for(int i=0;i<n;i++){
+     printf("%d %d\n",arr[i],frequency);}
 }
