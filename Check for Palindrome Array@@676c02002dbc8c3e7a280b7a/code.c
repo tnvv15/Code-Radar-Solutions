@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int reverse(int arr[],int start,int end,n){
+int reverse(int arr[],int start,int end,int n){
     int temp;
     while(start<=end){
     for(int i=0;i<n;i++){
@@ -10,7 +10,7 @@ int reverse(int arr[],int start,int end,n){
     }}
     reverse(arr,start+1,end-1);
 }
-int storearray(int arr[],n,int copy[];){
+int storearray(int arr[],int n,int copy[]){
 
     for(int i=0;i<n;i++){
         copy[i]=arr[i];
