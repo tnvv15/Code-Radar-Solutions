@@ -3,11 +3,10 @@
 void reverse(int arr[],int start,int end,int n){
     int temp;
     while(start<=end){
-    for(int i=0;i<n;i++){
         temp=arr[start];
         arr[start]=arr[end];
         arr[end]=temp;
-    }}
+    }
     reverse(arr,start+1,end-1);
 }
 int storearray(int arr[],int n,int copy[]){
