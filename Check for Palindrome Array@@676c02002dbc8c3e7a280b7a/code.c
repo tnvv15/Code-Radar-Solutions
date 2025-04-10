@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-void reverse(int arr[],int start,int end,int n){
+void reverse(int arr[],int start,int end){
     int temp;
     if(start>=end)
     return;
