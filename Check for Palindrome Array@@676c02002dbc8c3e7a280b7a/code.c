@@ -35,6 +35,7 @@ int main(){
         }
         else{
             printf("YES");
+            break;
         }
     }
 }
