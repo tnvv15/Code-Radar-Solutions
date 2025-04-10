@@ -26,7 +26,7 @@ int main(){
     }
     int start=0;
     int end=n-1;
-    storearray(arr, copy, n);       
+    storearray(arr,n,copy);       
     reverse(arr, 0, n - 1); 
     for(int i=0;i<n;i++){
         if(copy[i]!=arr[i]){
