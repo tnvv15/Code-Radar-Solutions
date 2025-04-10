@@ -26,8 +26,8 @@ int main(){
     }
     int start=0;
     int end=n-1;
-    storearray();
-    reverse();
+    storearray(arr, copy, n);       
+    reverse(arr, 0, n - 1); 
     for(int i=0;i<n;i++){
         if(copy[i]!=arr[i]){
             printf("NO");
